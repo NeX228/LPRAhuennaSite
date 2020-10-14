@@ -1,5 +1,5 @@
 <?
   $nex = "nex";
   echo "$nex";
-  echo substr ($nex, -3)
+  echo substr ($nex, -1)
 ?>
