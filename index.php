@@ -1,0 +1,4 @@
+<?
+  $nex = "nex";
+  echo "$nex";
+?>
