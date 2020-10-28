@@ -7,9 +7,9 @@
   </head>
   <body>
     <?php
-
+      require_once 'connection.php';
      ?>
-     <!-- ggwp -->fdsfdsf
-     
+
+
   </body>
 </html>
