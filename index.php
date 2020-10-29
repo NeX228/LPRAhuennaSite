@@ -9,6 +9,14 @@
     <?php
       require_once 'connection.php';
      ?>
+
+
+     <header>
+       <div class="">
+
+
+       </div>
+     </header>
      <header id="header" class="header">
        <div class="container">
          <div class="nav">
@@ -19,14 +27,7 @@
            </a>
            </li>
            </ul>
-           <ul class="menu">
-           <li>
-
-             <a href="#">
-             About
-           </a>
-           </li>
-           </ul>
+           <ul class="menu"> <li> <a href="#"> About </a> </li> </ul>
            <ul class="menu">
            <li>
              <a href="#">
