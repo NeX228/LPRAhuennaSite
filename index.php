@@ -6,9 +6,7 @@
     <link rel="stylesheet" href="main.css">
   </head>
   <body>
-    <?php
-      require_once 'connection.php';
-     ?>
+    
 
 
      <header>
