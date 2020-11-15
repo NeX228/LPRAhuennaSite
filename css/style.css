@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap');
+body{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-image: url(/image/back.jpg);
+  -moz-background-size: 100%; /* Firefox 3.6+ */
+  -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+  -o-background-size: 100%; /* Opera 9.6+ */
+  background-size: 100%; /* Современные браузеры */
+}
+
+li, a, button{
+  font-family: 'Goldman', cursive;
+  font-weight: 500;
+  font-size: 24px;
+  color: aliceblue;
+  text-decoration: none;
+}
+
+header{
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.31);
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+h1{
+  position: absolute;
+  top: 43%;
+  right: 30%;
+  left: 40%;
+  bottom: 50%;
+  font-size: 40px;
+  font-family: 'Goldman', cursive;
+  color: rgba(218, 59, 24, 0.86);
+
+}
+h2{
+  font-family: 'Goldman', cursive;
+  font-weight: 500;
+  font-size: 24px;
+  color: rgba(255, 228, 187, 0.83);
+  text-decoration: none;
+}
+.logo{
+  cursor: pointer;
+}
+
+.nav_link{
+  list-style: none;
+}
+
+.nav_link li{
+  display: inline-block;
+  padding: 0px, 20px;
+}
+
+.nav_link li a{
+  transition: all 0.3s ease 0s;
+  margin: 20px;
+}
+
+.nav_link li a:hover{
+  color: rgba(255, 0, 0, 0.5);
+}
+
+button{
+  padding: 9px 25px;
+  background-color: brown;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+
+button:hover{
+  background-color: rgba(255, 0, 0, 0.5);
+}
+.yura{
+    float: left;
+    background-color: rgba(255, 255, 255, 0);
+}
+.yura:hover{
+  background-image: url(/image/yurab.png);
+}
+.vs{
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  left: 46%;
+  bottom: 50%;
+
+}
+.bogdan{
+   float: right;
+   background-color: rgba(255, 255, 255, 0);
+}
+.bogdan:hover{
+  background-image: url(/image/bogdanb.png);
+}
+
+.footer {
+	padding: 20px;
+  background-color: rgba(20, 25, 41, 0.51);
+  margin-top: auto;
+}
+
+.page{
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

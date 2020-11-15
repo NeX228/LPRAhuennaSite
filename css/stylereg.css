@@ -1,0 +1,42 @@
+.hero{
+
+}
+
+.form-box{
+  width: 380px;
+  height: 480px;
+  position: relative;
+  margin: 6% auto;
+  background: rgba(13, 23, 60, 0.78);
+  padding: 5px;
+}
+
+.button-box{
+  width: 322px;
+  margin: 35px auto;;
+  position: relative;
+  box-shadow: 0 0 20px 10px #6b7185;
+  border-radius: 30px;
+}
+
+.toggle-btn{
+  font-family: 'Goldman', cursive;
+  padding: 10px 30px;
+  cursor: pointer;
+  background: transparent;
+  border: 0;
+  outline: none;
+  position: relative;
+}
+
+#button{
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 110px;
+  height: 100%;
+  background: linear-gradient(to right, #bf003f, #650000);
+  border-radius: 30px;
+  transition: .5s;
+
+}
